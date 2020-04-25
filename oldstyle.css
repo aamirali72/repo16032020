@@ -1,0 +1,116 @@
+div {
+	background-color: grey;
+	color: white;
+}
+
+#first-div {
+	background-color: orange;
+	color: red;
+}
+#second-div {
+	background-color: grey;
+	color: blue;
+}
+
+.first-class-div {
+	background-color: white;
+	color: blue;
+}
+
+a:link {
+	color: green;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: orange;
+}
+a:active {
+	color:grey;
+}
+
+p {
+	background-color: grey;
+	color: khaki;
+}
+
+#new-div:first-letter {
+	color: blue;
+}
+
+#new-div1:first-line {
+	color: green;
+}
+
+div:first-child {
+	color: blue;
+}
+
+.margination {
+
+	background: orange;
+	color: red;
+	width: 100px;
+	height: 100px;
+	margin: 50px 50px 50px 50px;
+/*		top   right bottom left*/
+	padding: 10px 10px 10px 10px
+}
+
+.margination2 {
+	background: green;
+	color: orange;
+	width: 100px;
+	height: 100px;
+	margin: 50px 50px 50px 50px;
+	padding: 40px 40px 0px 20px;
+	
+}
+
+#dimension {
+	background: red;
+	color: orange;
+	width: 100px;
+	height: 100px;
+	margin: 50px 50px 50px 50px;
+	padding: 40px 40px 40px 40px;
+	border-top: 5px solid black;
+	border-left: 5px dotted green;
+	border-bottom: 5px dashed black;
+	border-right: 5px solid blue;
+}
+#container {
+	background: grey;
+}
+#dimension2 {
+	background: red;
+	color: orange;
+	width: 100px;
+	height: 100px;
+	margin: 50px 50px 50px 50px;
+	padding: 10px 10px 10px 10px;
+	border-top: 5px solid black;
+	border-left: 5px dotted green;
+	border-bottom: 5px dashed black;
+	border-right: 5px solid blue;
+	float: left;
+}
+.div4 {
+	background: green;
+	width: 100px;
+	height: 100px;
+	margin: 50px 0px 0px 0px;
+	padding: 10px;
+	border: 5px red solid;
+	float: left;
+}
+
+/*Lesson 86 Advance Selectors*/
+
+/*.div5  p {*/
+/*.div5 > p {*/
+/*.div5 + p {*/
+.div5 ~ p {
+	color: blue;
+	}
